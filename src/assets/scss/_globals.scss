@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+$poppins: 'Poppins', sans-serif;
+
+$colorRed:#f82c17;
+
+
+.container {
+	max-width: 100% !important;
+	padding: 0 20px !important;
+	@media screen and (min-width: 900px) {
+		padding: 0 20px !important;
+		max-width: 900px !important;
+	}
+}
+
+p {
+	margin-bottom: 0;
+}

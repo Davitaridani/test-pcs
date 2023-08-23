@@ -1,0 +1,35 @@
+@import "globals";
+
+.sect-activity {
+	.container {
+		.title {
+			h1 {
+				font-weight: 700;
+				font-size: 17px;
+			}
+		}
+		.row {
+			.item-activity {
+				span {
+					color: $colorRed;
+					font-size: 28px;
+					font-weight: 700;
+				}
+				.text {
+					line-height: 1.2;
+					margin-top: 7px;
+					p {
+						font-size: 15px;
+						font-weight: 700;
+						margin-bottom: 0;
+					}					
+					span {
+						font-size: 13px;
+						color: #1f1f1f;
+						font-weight: 400;
+					}
+				}
+			}
+		}
+	}
+}

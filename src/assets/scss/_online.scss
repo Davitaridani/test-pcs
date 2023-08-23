@@ -1,0 +1,81 @@
+@import "globals";
+
+.sect-online {
+	padding-bottom: 110px;
+	.container {
+			position: relative;
+
+		.title {
+			h1 {
+				font-size: 17px;
+				font-weight: 700;
+				margin-bottom: 10px;
+			}
+		}
+		.item-cards {
+			background-color: #fff;
+			box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+			padding: 14px;
+			border-radius: 10px;
+			position: relative;
+			.card-person {
+				position: relative;
+				.item-card {
+					left: 0;
+					.profile {
+						img {
+							height: 40px;
+							object-fit: contain;
+							border-radius: 50px;
+							background-color: #fff;
+							padding: 2px;
+						}
+					}
+					.item-text {
+						line-height: 1;
+						margin-top: 5px;
+						height: 20px;
+						p {
+							font-size: 10px;
+							margin-bottom: 0;
+							line-height: 1;
+							font-weight: 700;
+						}
+						span {
+							font-size: 8px;
+							font-weight: 400;
+						}
+					}
+				}
+			}
+			.card-person:nth-child(1) { 
+				position: relative;
+				left: 25px;
+			}
+			.card-person:nth-child(2) { 
+				left: 20px;
+			}
+			.card-person:nth-child(3) { 
+				left: 15px;
+			}
+			.card-person:nth-child(4) { 
+				left: 10px;
+			}
+			.card-person:nth-child(5) { 
+				left: 5px;
+			}
+			.card-person:nth-child(6) { 
+				left: 0px;
+			}
+			.card-person:nth-child(7) { 
+				left: -5px;
+			}
+			.card-person:nth-child(8) { 
+				left: -10px;
+			}
+			.card-person:nth-child(9) { 
+				left: -20px;
+			}
+		}
+	}
+}
