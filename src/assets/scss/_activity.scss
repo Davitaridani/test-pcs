@@ -30,6 +30,16 @@
 					}
 				}
 			}
+
+			.col-4:nth-child(2) {
+				.item-activity {
+					.text {
+						p {
+							color: $colorRed;
+						}
+					}
+				}
+			}
 		}
 	}
 }

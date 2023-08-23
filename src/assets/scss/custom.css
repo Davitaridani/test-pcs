@@ -169,7 +169,7 @@ p {
 }
 
 .sect-cardHero {
-  padding: 0 0 30px;
+  padding: 0 0 25px;
 }
 .sect-cardHero .container {
   position: relative;
@@ -273,6 +273,9 @@ p {
   font-size: 13px;
   color: #1f1f1f;
   font-weight: 400;
+}
+.sect-activity .container .row .col-4:nth-child(2) .item-activity .text p {
+  color: #f82c17;
 }
 
 .container {
